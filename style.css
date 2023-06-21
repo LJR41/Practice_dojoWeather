@@ -1,0 +1,105 @@
+* {
+    font-family: 'Kanit', sans-serif;
+}
+
+.body{
+    width: 100%;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* Nav Bar Content */
+.nav{
+    background-color: skyblue;
+    margin: 0 auto;
+    min-height: 50px;
+    color: white;
+    justify-content: space-between;
+}
+h3, .title{
+    margin: 0px 8px 0px 8px;
+    font-size: 150%;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+/* Main Body Content */
+.main{
+    margin: 0 auto;
+    min-height: 800px;
+}
+
+.header{
+    border-bottom: 3px solid black;
+    margin-bottom: 25px;
+    min-height: 100px;
+    justify-content: space-between;
+}
+
+.sj{
+    margin-left: 10px;
+    font-size: 150%;
+}
+
+.select, .headtxt{
+    margin-right: 8px;
+    font-weight: bold;
+}
+
+.today, .tomo, .fri, .sat{
+    background-color: lightgray;
+    min-height: 400px;
+    text-align: center;
+    
+}
+
+h4{
+    font-size: 200%;
+}
+
+.temps{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hot{
+    color: red;
+    margin-left: 15px;
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.cold{
+    color: blue;
+    margin-right: 15px;
+    font-size: 200%;
+    font-weight: bold;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 0px 10px 0px 10px;
+}
+
+.cookies{
+    width: 100%;
+    height: 100px;
+    border: 2px solid black;
+    background-color: white;
+    position:fixed;
+    bottom: 0px;
+    justify-content: space-evenly;
+}
+
+.cookimg{
+    height: 100px;
+    width: 100px;
+}

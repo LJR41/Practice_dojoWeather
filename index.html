@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="nav flex">
+      <div class="title">
+        <h1>DojoWeather</h1>
+      </div>
+      <div class="cities flex">
+        <h3 onclick="loadCity()"><a href="">Burbank</a></h3>
+        <h3 onclick="loadCity()"><a href="">Chicago</a></h3>
+        <h3 onclick="loadCity()"><a href="">Dallas</a></h3>
+      </div>
+    </div>
+    <div class="main">
+      <div class="header flex">
+        <div class="sj"><h2>San Jose</h2></div>
+        <div class="select flex">
+          <p class="headtxt">show temperature in</p>
+          <select name="temperature" id="temp">
+            <option value="cel">C</option>
+            <option value="far">F</option>
+          </select>
+        </div>
+      </div>
+      <!-- Weather Forecast -->
+      <div class="colcontain flex">
+        <div class="today">
+          <h4>Today</h4>
+          <img src="./imgs/some_rain.png" alt="" />
+          <h5>some rain</h5>
+          <div class="temps">
+            <p class="hot">24</p>
+            <p class="cold">18</p>
+          </div>
+        </div>
+        <div class="tomo">
+          <h4>Tomorrow</h4>
+          <img src="./imgs/some_sun.png" alt="" />
+          <h5>some sun</h5>
+          <div class="temps">
+            <p class="hot">27</p>
+            <p class="cold">19</p>
+          </div>
+        </div>
+        <div class="fri">
+          <h4>Friday</h4>
+          <img src="./imgs/some_clouds.png" alt="" />
+          <h5>some clouds</h5>
+          <div class="temps">
+            <p class="hot">21</p>
+            <p class="cold">16</p>
+          </div>
+        </div>
+        <div class="sat">
+          <h4>Saturday</h4>
+          <img src="./imgs/some_sun.png" alt="" />
+          <h5>some sun</h5>
+          <div class="temps">
+            <p class="hot">26</p>
+            <p class="cold">21</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="cookies flex" id="cookie">
+      <div><img class="cookimg" src="./imgs/cookie.png" alt="cookie" /></div>
+      <div>
+        <h3>Stop! Watch out for Cookies!</h3>
+        <p>
+          This website uses cookies, yes the yummy kind. Accept the cookies...
+        </p>
+      </div>
+      <div><button onclick="iAccept()">I Accept</button></div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
